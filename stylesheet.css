@@ -1,0 +1,85 @@
+body {
+  background: #eaeaea;
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: white;
+  font-family: arabic;
+  margin: 0;
+}
+
+div .post {
+  background: white;
+  width: 600px;
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div .headline {
+  position: relative;
+  right: 0px;
+  top: 0px;
+  padding: 5px;
+}
+
+div h1 {
+  padding-left: 370px;
+}
+
+.picture {
+  width: 100%;
+  height: 600px;
+}
+
+#saddog {
+  width: 100%;
+}
+
+.caption {
+  position: relative;
+  left: 20px;
+  bottom: 10px;
+}
+
+.p1{
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+.p2 {
+  margin-top:0;
+  margin-bottom: 0;
+  padding-top:0;
+}
+
+p {
+  padding:5px;
+}
+
+#pasta {
+  margin-bottom: 60px;
+}
+
+
+h1 {
+  position: relative;
+  padding-left: 342px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+h2 span {
+  float: right;
+  color: #eaeaea;
+}
+
+h2 {
+  margin: 15px;
+}
