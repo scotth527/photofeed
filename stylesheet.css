@@ -7,39 +7,69 @@ body {
 
 header {
   width: 100%;
-  height: 80px;
   background: white;
   font-family: arabic;
   margin: 0;
 }
 
+div h1 {
+  width:600px;
+  margin: auto;
+  line-height: 100px;
+}
+
+.content {
+  max-width: 600px;
+  margin:auto;
+}
+
 div .post {
+  width: 100%;
   background: white;
-  width: 600px;
   display: block;
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 3px;
 }
 
 div .headline {
-  position: relative;
-  right: 0px;
-  top: 0px;
+  display: flex;
+  justify-content: space-between;
   padding: 5px;
 }
 
-div h1 {
-  padding-left: 370px;
+div span {
+  color: #eaeaea;
+  margin: 15px;
+  line-height: 25.2px;
 }
 
-.picture {
+h2 {
+  margin: 15px;
+}
+
+div.imagecontainer {
   width: 100%;
   height: 600px;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
 }
 
-#saddog {
-  width: 100%;
+div#firstpic {
+  background: url("http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg") center center no-repeat;
+}
+
+div#secondpic {
+  background: url("http://cuteimages.net/data/2015/5/pug-on-skateboard-dogs-cuteimages.net.jpg") center center no-repeat;
+}
+
+div#thirdpic {
+  background: url("http://iphone4swallpapers.com/wp-content/uploads/2018/03/using-macbook-pro-tutorial-new-how-to-use-touch-id-on-your-macbook-pro-of-using-macbook-pro-tutorial.jpg") center center no-repeat;
+}
+
+div#fourthpic {
+  background: url("https://getbento.imgix.net/accounts/83ae39a3b3de63e64d52563cd1e9f71d/media/images/7596Union_Square_Cafe_food_by_Chef_Carmen_Quagliata.jpg?w=600&fit=max&auto=compress,format&h=600") center center no-repeat;
 }
 
 .caption {
@@ -65,21 +95,4 @@ p {
 
 #pasta {
   margin-bottom: 60px;
-}
-
-
-h1 {
-  position: relative;
-  padding-left: 342px;
-  padding-top: 20px;
-  margin: 0;
-}
-
-h2 span {
-  float: right;
-  color: #eaeaea;
-}
-
-h2 {
-  margin: 15px;
 }
