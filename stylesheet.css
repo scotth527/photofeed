@@ -40,9 +40,10 @@ div .headline {
 }
 
 div span {
-  color: #eaeaea;
+  color: gray;
   margin: 15px;
   line-height: 25.2px;
+  font-size:1.1em;
 }
 
 h2 {
